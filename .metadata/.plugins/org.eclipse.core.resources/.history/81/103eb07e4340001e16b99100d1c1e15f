@@ -1,0 +1,12 @@
+package com.shyam.demo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class DatabaseCon {
+
+	private String driver;
+	private String url;
+	private String username;
+	private String password;
+}

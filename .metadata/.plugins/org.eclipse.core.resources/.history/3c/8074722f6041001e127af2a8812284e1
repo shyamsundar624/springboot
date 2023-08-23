@@ -1,0 +1,9 @@
+package com.shyam.test;
+
+public class DatabbaseConfig {
+
+	private String driver;
+	private String url;
+	private String username;
+	private String password;
+}
