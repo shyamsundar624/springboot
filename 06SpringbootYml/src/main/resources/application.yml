@@ -1,0 +1,20 @@
+server:
+      port: 9090
+      
+my:
+  info:
+     id: 14
+     name: shyam
+     course: java
+     set:
+     - set1
+     - set2
+     - set3
+     - set4
+     map:
+      m1: M1
+      m2: M2
+      m3: M3
+     certi:
+        id: 56
+        name: Springboot       

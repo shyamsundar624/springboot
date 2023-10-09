@@ -1,5 +1,0 @@
-
-server.port=9091
-
-my.db.driver=com.mysql.cj.jdbc.Driver
-

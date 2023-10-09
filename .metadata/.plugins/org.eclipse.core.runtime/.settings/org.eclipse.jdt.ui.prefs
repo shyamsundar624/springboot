@@ -1,8 +1,10 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.shyam.test.entity.Address"><rhs name\="com.shyam.test.entity.Address"/></lhs><lhs name\="com.shyam.test.entity.Product"><rhs name\="com.shyam.test.entity.Product"/></lhs><lhs name\="org.springframework.data.util.Streamable"><rhs name\="org.springframework.data.domain.Sort"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="org.springframework.data.domain.Sort"/><rhs name\="java.util.LinkedHashSet"/></lhs><lhs name\="java.util.function.Supplier"><rhs name\="org.springframework.data.domain.Sort"/></lhs><lhs name\="org.springframework.data.domain.Sort"><rhs name\="org.springframework.data.domain.Sort"/></lhs><lhs name\="com.shyam.demo.entity.Employee"><rhs name\="com.shyam.demo.entity.Employee"/></lhs><lhs name\="java.lang.Enum"><rhs name\="javax.persistence.GenerationType"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="javax.persistence.GenerationType"/></lhs><lhs name\="com.shyam.test.enity.Product"><rhs name\="com.shyam.test.enity.Product"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.LinkedHashSet"/></lhs><lhs name\="java.util.Set"><rhs name\="java.util.LinkedHashSet"/></lhs><lhs name\="java.util.Map"><rhs name\="java.util.LinkedHashMap"/></lhs><lhs name\="com.shyam.demo.entity.IDCard"><rhs name\="com.shyam.demo.entity.IDCard"/></lhs><lhs name\="com.shyam.test.entity.Person"><rhs name\="com.shyam.test.entity.Person"/></lhs><lhs name\="com.shyam.test.entity.IdCard"><rhs name\="com.shyam.test.entity.IdCard"/></lhs></history>
 content_assist_number_of_computers=15
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
 org.eclipse.jdt.ui.formatterprofiles.version=21
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true

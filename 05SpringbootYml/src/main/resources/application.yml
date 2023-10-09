@@ -1,0 +1,9 @@
+server:
+      port: 9090
+      
+my:
+  info:
+      id: 12
+      name: shyam
+      course: java
+      

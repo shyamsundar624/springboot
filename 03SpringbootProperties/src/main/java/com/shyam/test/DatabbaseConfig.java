@@ -1,21 +1,77 @@
 package com.shyam.test;
 
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
+@ConfigurationProperties("my.db")
 public class DatabbaseConfig {
-@Value("${my.db.driver}")
 	private String driver;
 
-@Value("${my.db.url}")
 	private String url;
 
-@Value("${my.db.username}")
 	private String username;
 
-@Value("${my.db.password}")
 	private int password;
+
+	
+	
+	
+public String getDriver() {
+		return driver;
+	}
+
+
+
+
+	public void setDriver(String driver) {
+		this.driver = driver;
+	}
+
+
+
+
+	public String getUrl() {
+		return url;
+	}
+
+
+
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
+
+
+
+
+	public String getUsername() {
+		return username;
+	}
+
+
+
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+
+
+
+	public int getPassword() {
+		return password;
+	}
+
+
+
+
+	public void setPassword(int password) {
+		this.password = password;
+	}
+
+
+
 
 @Override
 public String toString() {
