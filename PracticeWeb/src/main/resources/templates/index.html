@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<p>Hello <span th:text="${name}"/></p>
+<hr>
+<P>WELCOME TO APP</P>
+<p>
+ID :<span th:text= ${user.userId} /><br>
+NAME : <span th:text=${user.userName} /><br>
+ROLE : <span th:text=${user.userRole} />
+</p>
+</body>
+</html>

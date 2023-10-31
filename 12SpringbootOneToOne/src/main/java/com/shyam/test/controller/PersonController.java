@@ -1,7 +1,5 @@
 package com.shyam.test.controller;
 
-import javax.annotation.PostConstruct;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -28,6 +26,7 @@ public class PersonController {
 
 		card.setName("PAN");
 		card.setNumber(34534432);
+		card.setPerson(p);
 
 		p.setCard(card);
 
